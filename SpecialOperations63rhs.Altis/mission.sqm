@@ -2335,7 +2335,7 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			text="Sign_Jet_1";
-			init="_null = this addAction [""Spawn A-164 Wipeout"", ""SOS\ObjectSpawn\spawnJet.sqf"", [""B_Plane_CAS_01_F"", spawnJet1, true, """"], 7, false, true]; _null = this addAction [""Spawn A-10A"", ""SOS\ObjectSpawn\spawnJet.sqf"", [""RHS_A10"", spawnJet1, true, """"], 7, false, true]; this allowDamage false; this setObjectTexture [0, ""SOS\ObjectSpawn\Pictures\Jet.jpg""];";
+			init="_null = this addAction [""Spawn A-164 Wipeout"", ""SOS\ObjectSpawn\spawnJet.sqf"", [""B_Plane_CAS_01_F"", spawnJet1, true, """"], 7, false, true]; _null = this addAction [""Spawn A-10A"", ""SOS\ObjectSpawn\spawnJet.sqf"", [""RHS_A10"", spawnJet1, true, """"], 7, false, true]; _null = this addAction [""Spawn F/A-18E SuperHornet"", ""SOS\ObjectSpawn\spawnJet.sqf"", [""JS_JC_FA18E"", spawnJet1, true, """"], 7, false, true]; _null = this addAction [""Spawn F/A-18F SuperHornet"", ""SOS\ObjectSpawn\spawnJet.sqf"", [""JS_JC_FA18F"", spawnJet1, true, """"], 7, false, true]; this allowDamage false; this setObjectTexture [0, ""SOS\ObjectSpawn\Pictures\Jet.jpg""];";
 		};
 		class Item19
 		{

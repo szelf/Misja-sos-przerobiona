@@ -15,7 +15,7 @@ if (!isDedicated) then {
 
 
 	private ["_objects","_gear","_backpacks","_weapons","_magazines","_items"];
-	_objects = [AmmoBox1, AmmoBox2, AmmoBox3, Sign_Heli_1, Sign_Heli_2, Sign_Heli_3, Sign_Jet_1];
+	_objects = [AmmoBox1, AmmoBox2, AmmoBox3];
 	
 	waitUntil {!IsNull Player && alive player};
 	
